@@ -1,0 +1,37 @@
+.third-col{
+    background-image:url("img/bg.jpg");
+    padding-bottom:70px;
+
+    .row-1{
+        width:100%;
+
+        .block-1{
+            width:45%;
+            float:left;
+            margin-left:40px;
+            margin-top:20px;
+            color:$w-color;
+            font-family:lato;
+
+            hr{
+                margin-top:20px;
+                width:100%;
+            }
+
+            span{
+                float:left;
+                font-size:25px;
+            }
+
+            .txt{
+                margin-left:40px;
+
+                p{
+                    font-size:14px;
+                    line-height:25px;
+                    margin-top:15px;
+                }
+            }
+        }
+    }
+}

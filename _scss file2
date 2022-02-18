@@ -1,0 +1,54 @@
+.second-col{
+    background-image:url("img/bg.jpg");
+    background-image:cover;
+    width:100%;
+    padding:6% 0px;
+   
+
+    h3{
+       width:90%;
+       text-align:center;
+       margin:0 auto;
+       font-weight:300;
+       color:$w-color;
+       line-height:27px;
+
+       span{
+           font-weight:600;
+       }
+    }
+
+    .btn{
+        width:100%;
+        text-align:center;
+        padding:50px 0px;
+    }
+
+    .row1{
+        width:100%;
+        margin:0 auto;
+
+        .block1{
+            width:30%;
+            float:left;
+            background-color:$w-color;
+            padding-bottom:25px;
+            text-align:center;
+            margin-left:25px;
+            margin-bottom:25px;
+
+            img{
+                width:100%;
+            }
+
+            p{
+                padding:25px 20px;
+                font-size:14px;
+                color:$g-color;
+                line-height:20px;
+            }
+        }
+
+    }
+    
+}

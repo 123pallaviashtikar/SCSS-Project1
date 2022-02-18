@@ -1,0 +1,418 @@
+.inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+button {
+  width: 160px;
+  height: 40px;
+  background-color: rgba(241, 67, 96, 0.973);
+  border: none;
+  border-radius: 5px;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* nav section */
+nav {
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  padding: 22px 0px;
+}
+
+nav .left {
+  float: left;
+  width: 40%;
+}
+
+nav .left .edit {
+  color: gray;
+}
+
+nav .right {
+  width: 60%;
+  float: left;
+}
+
+nav .right ul {
+  float: right;
+}
+
+nav .right ul li {
+  float: left;
+  list-style: none;
+  margin-right: 20px;
+  font-weight: 400;
+  color: #969595;
+  font-size: 16px;
+}
+
+nav .toggle {
+  display: none;
+}
+
+/* 2nd column */
+.second-col {
+  background-image: url("img/bg.jpg");
+  background-image: cover;
+  width: 100%;
+  padding: 6% 0px;
+}
+
+.second-col h3 {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 300;
+  color: #fff;
+  line-height: 27px;
+}
+
+.second-col h3 span {
+  font-weight: 600;
+}
+
+.second-col .btn {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.second-col .row1 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.second-col .row1 .block1 {
+  width: 30%;
+  float: left;
+  background-color: #fff;
+  padding-bottom: 25px;
+  text-align: center;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.second-col .row1 .block1 img {
+  width: 100%;
+}
+
+.second-col .row1 .block1 p {
+  padding: 25px 20px;
+  font-size: 14px;
+  color: #969595;
+  line-height: 20px;
+}
+
+.third-col {
+  background-image: url("img/bg.jpg");
+  padding-bottom: 70px;
+}
+
+.third-col .row-1 {
+  width: 100%;
+}
+
+.third-col .row-1 .block-1 {
+  width: 45%;
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  color: #fff;
+  font-family: lato;
+}
+
+.third-col .row-1 .block-1 hr {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.third-col .row-1 .block-1 span {
+  float: left;
+  font-size: 25px;
+}
+
+.third-col .row-1 .block-1 .txt {
+  margin-left: 40px;
+}
+
+.third-col .row-1 .block-1 .txt p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+.fourth-col {
+  background-color: rgba(241, 67, 96, 0.973);
+  padding: 70px 0px;
+  color: #fff;
+  text-align: center;
+}
+
+.fourth-col p {
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+.fourth-col form {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fourth-col form #name, .fourth-col form #email {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #969595;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
+.fourth-col form textarea {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  height: 130px;
+  margin-top: 20px;
+  color: #969595;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
+.fourth-col form .btn-place {
+  display: block;
+  margin-top: 20px;
+}
+
+.fourth-col form .btn-place .btn {
+  border: #fff 2px solid;
+  color: #fff;
+  height: 50px;
+  width: 170px;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+footer p {
+  font-weight: 400;
+  color: #4d4c4c;
+  word-spacing: 5px;
+}
+
+footer p span {
+  color: #949393;
+  font-weight: 500;
+}
+
+footer .fa {
+  color: #949393;
+  font-weight: 500;
+  border: 1px solid;
+  border-radius: 100%;
+  font-size: 15px;
+  padding: 6px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1020px) {
+  .inner {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .second-col {
+    width: 100%;
+  }
+  .second-col h3 {
+    width: 90%;
+    font-size: 16px;
+  }
+  .second-col .row1 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1015px) {
+  .third-col .row-1 {
+    width: 100%;
+  }
+  .third-col .row-1 .block-1 {
+    width: 45%;
+    margin-left: 20px;
+  }
+  .third-col .row-1 .block-1 hr {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 957px) {
+  .second-col {
+    width: 100%;
+  }
+  .second-col h3 {
+    width: 90%;
+    font-size: 16px;
+  }
+  .second-col .row1 {
+    width: 100%;
+  }
+  .second-col .row1 .block1 {
+    width: 30%;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .second-col .row1 .block1 p {
+    font-size: 12px;
+  }
+  .third-col {
+    width: 100%;
+  }
+  .third-col .row-1 {
+    padding: 40px 0px;
+  }
+  .third-col .row-1 .block-1 {
+    width: 45%;
+  }
+  .third-col .row-1 .block-1 .txt {
+    font-size: 13px;
+  }
+  .third-col .row-1 hr {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  nav {
+    position: relative;
+  }
+  nav .left {
+    float: none;
+    padding-left: 20px;
+  }
+  nav .right ul {
+    float: none;
+    padding-left: 20px;
+    display: none;
+  }
+  nav .right ul li {
+    float: none;
+    margin-top: 20px;
+  }
+  nav .toggle {
+    display: block;
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    margin-top: -30px;
+  }
+  nav .toggle .fa {
+    font-size: 28px;
+    color: #fff;
+    padding: 5px;
+  }
+  .second-col {
+    width: 100%;
+  }
+  .second-col .row1 {
+    width: 100%;
+  }
+  .second-col .row1 .block1 {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .second-col {
+    width: 100%;
+  }
+  .second-col h3 {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .second-col .btn {
+    padding: 20px 0px;
+  }
+  .second-col .row1 {
+    width: 100%;
+  }
+  .second-col .row1 .block1 {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10px;
+  }
+  .third-col {
+    padding-bottom: 20px;
+  }
+  .third-col .row-1 {
+    width: 100%;
+  }
+  .third-col .row-1 .block-1 {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .third-col .row-1 .block-1 span {
+    font-size: 15px;
+  }
+  .third-col .row-1 .block-1 .txt h2 {
+    font-size: 15px;
+  }
+  .third-col .row-1 .block-1 .txt p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .third-col .row-1 .block-1 hr {
+    display: none;
+  }
+  .fourth-col {
+    padding: 40px 0px;
+  }
+  .fourth-col h1 {
+    font-size: 20px;
+  }
+  .fourth-col p {
+    font-size: 9px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  footer .fa {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

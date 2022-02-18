@@ -1,0 +1,52 @@
+.fourth-col{
+    background-color:$p-color;
+    padding:70px 0px;
+    color:$w-color;
+    text-align:center;
+
+    p{
+        font-weight:300;
+        margin-bottom:60px;
+    }
+
+    form{
+        width:70%;
+        margin:0 auto;
+        text-align:center;
+
+        #name,#email{
+            display:block;
+            width:100%;
+            height:30px;
+            margin-top:20px;
+            border:none;
+            border-radius:5px;
+            color:$g-color;
+            padding-left:8px;
+            padding-top:8px;
+        }
+
+        textarea{
+            width:100%;
+            border:none;
+            border-radius:5px;
+            height:130px;
+            margin-top:20px;
+            color:$g-color;
+            padding-left:8px;
+            padding-top:8px;
+        }
+
+        .btn-place{
+            display:block;
+            margin-top:20px;
+
+            .btn{
+                border:$w-color 2px solid;
+                color:$w-color;
+                height:50px;
+                width:170px;
+            }
+        }
+    }
+}
